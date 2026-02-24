@@ -7,7 +7,7 @@ const palindromes = function (string) {
     .toLowerCase()
     .split('')
     .filter((character) => alphanumerical.includes(character))
-    .join('');
+    .join(''); 
 
   // Create a new reversed string for comparison
   const reversedString = cleanedString.split('').reverse().join('');
